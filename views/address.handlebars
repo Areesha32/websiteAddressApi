@@ -1,0 +1,14 @@
+<html>
+<head>  
+</head>
+<body>
+<title>{{main}}</title>
+<h1> Following are the titles of given websites: </h1>
+
+<ul class="list-group">
+  {{#each arr}}
+   <li class="list-group-item">{{this.address}} -  {{this.title}}</li>
+  {{/each}}
+</ul>
+</body>
+</html>
